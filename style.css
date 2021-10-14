@@ -105,4 +105,10 @@ footer > * {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media (max-width: 400px) {
+    #search-form {
+        transform: scale(1.2);
+    }
+}
 /* End of Adaptive Styling */
